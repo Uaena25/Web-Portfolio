@@ -12,6 +12,9 @@
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,700">
 
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/739717ad31.js" crossorigin="anonymous"></script>
+
   <link rel="stylesheet" href="styles.css">
 
   <title>Irvin Le's Portfolio</title>
@@ -73,7 +76,7 @@
       <h2 class="title">Skills</h2>
       <div id="skills-content" class="section-content row justify-content-between">
         <div class="col-md-5 col-lg-3">
-          <h3>Languages</h3>
+          <h3><i class="fas fa-file-code"></i> Languages</h3>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -86,7 +89,7 @@
           </ul>
         </div>
         <div class="col-md-5 col-lg-3">
-          <h3>Frameworks</h3>
+          <h3><i class="fas fa-crop-alt"></i> Frameworks</h3>
           <ul>
             <li>JQuery</li>
             <li>Express</li>
@@ -94,7 +97,7 @@
           </ul>
         </div>
         <div class="col-md-5 col-lg-3">
-          <h3>Other Technologies</h3>
+          <h3><i class="fas fa-laptop"></i> Other Technologies</h3>
           <ul>
             <li>Windows</li>
             <li>Unix</li>
@@ -109,33 +112,12 @@
     </div>
   </section>
 
-  <!-- Projects Section -->
-  <!-- <section id="projects">
-    <div class="container">
-      <h2 class="title">About Me</h2>
-      <div id="projects-content" class="section-content row">
-        <div class="col-md-8">
-          <div class="row">
-            <div class="col-md-10">
-              <p>Before attending university, I knew almost nothing about coding. But after seeing my friends code while
-                I hung out in their dorms, I realized that this was something I want to do and switched majors to Comupter science as soon as I
-                could. At first all these unfamiliar concepts overwhelmed me, but as time passed, but I never gave up and overcame these obstacles.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <img class="img-fluid" src="Images/jean.jpg" alt="">
-        </div>
-      </div>
-    </div>
-  </section> -->
-
   <section id="projects">
     <div class="container px-0 my-0">
       <h2 class="title">Projects</h2>
       <div id="projects-content" class="section-content">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 order-2 order-md-1">
             <div class="row">
               <div class="col-md-10">
                 <h4 class="project-title">Summon Simulator</h4>
@@ -146,22 +128,23 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 order-1 order-md-2">
             <img class="img-fluid project-img" src="Images/simulator.png" alt="">
           </div>
         </div>
         <div class="row">
           <div class="col-md-6">
-            <img class="img-fluid project-img" src="Images/simulator.png" alt="">
+            <img class="img-fluid project-img" src="Images/discordbot.png" alt="">
           </div>
           <div class="col-md-6">
             <div class="row justify-content-center">
               <div class="col-md-10">
-                <h4 class="project-title">Summon Simulator</h4>
-                <p>A simulator for the Moonlight Summon in the mobile game Epic Seven. Images and information of the characters are retrieved from EpicSevenDB
-                  using their API. Click on the Galaxy Bookmark to summon!</p>
+                <h4 class="project-title">Discord Bot</h4>
+                <p>A Discord bot for the mobile game Epic Seven that is used by friends and guildmates that play the game. The bot has a gear score calculator
+                  that calculates gear score depending on the gear's substat values and character. The bot can tell you how much percentage of a stat needed
+                  to reach the ideal amount. It even has the simulator from my earlier project!</p>
                 <h4 class="project-title">Technology:</h4>
-                <p>HTML, CSS, JavaScript</p>
+                <p>Python</p>
               </div>
             </div>
           </div>
@@ -169,9 +152,6 @@
       </div>
     </div>
   </section>
-
-
-
 
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -184,52 +164,3 @@
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
-<!-- <section id="projects">
-  <div class="container-fluid px-0 my-0">
-    <h2 class="title">Projects</h2>
-    <div id="projects-content" class="section-content row">
-      <div class="col-md-5 col-lg-3">
-        <div id="summon-sim" class="card">
-          <img class="card-img-top" src="Images/galaxy-bookmark.png" alt="Summon Simulator">
-          <div class="card-body">
-            <h5 class="card-title">Summon Simulator</h5>
-            <p class="card-text">A simulator for the Moonlight Summon in the mobile game Epic Seven. Images and information of the characters are retrieved from EpicSevenDB
-              using their API.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-5 col-lg-3">
-        <div class="card">
-          <img class="card-img-top" src="Images/jean.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-5 col-lg-3">
-        <div class="card">
-          <img class="card-img-top" src="Images/jean.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
