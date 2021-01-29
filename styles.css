@@ -29,7 +29,7 @@
     margin-left: 2rem;
 }
 
-#skills {
+#skills, #contact {
     background-color:  rgb(16,18,19);
     color:aliceblue;
 }
@@ -44,12 +44,21 @@
     color: rgb(216, 223, 230);
 }
 
-/* #projects-content div {
-    margin: 0.5rem 1rem;
-} */
-
 #projects-content div {
     padding: 1rem 0;
+}
+
+#contact-content div {
+    display: flex;
+    align-items: center;
+}
+
+#contact-content div i {
+    margin: 1rem;
+}
+
+#contact-content div a {
+    color:aliceblue;
 }
 
 #about, #projects{
@@ -57,7 +66,7 @@
     color: black;
 }
 
-#about, #skills, #projects {
+#about, #skills, #projects, #contact {
     padding: 5rem 0;
 }
 
