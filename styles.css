@@ -57,10 +57,6 @@
     margin: 1rem;
 }
 
-#contact-content div a {
-    color:aliceblue;
-}
-
 #about, #projects{
     background-color: aliceblue;
     color: black;
@@ -110,6 +106,14 @@
 
 .project-img {
     float: right;
+}
+
+.whitelink {
+    color:aliceblue;
+}
+
+.blacklink {
+    color:black;
 }
 
 /* @media (max-width: 1200px) {
