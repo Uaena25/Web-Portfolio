@@ -2,6 +2,13 @@
     margin: 0;
 }
 
+html,body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 #mainNavbar {
     background-color: rgba(91, 31, 148, 0);
 }
@@ -89,9 +96,13 @@
     transition: background 1s;
 }
 
-#summon-sim img {
-    background-color: black;
+/* #project-img {
+    background-size: 300px 150px;
 }
+
+#project-text {
+    text-align: end;
+} */
 
 .section-content {
     max-width: 1200px;
@@ -114,6 +125,26 @@
 
 .blacklink {
     color:black;
+}
+
+@media (max-width: 600px) {
+    #home-content div:nth-of-type(1) {
+      font-size: 36px;
+    }
+
+    #home-content div:nth-of-type(2) {
+        font-size: 72px;
+    }
+
+    #home-content div:nth-of-type(3) {
+        font-size: 54px;
+    }
+
+    /* Prevents left side of projects from getting cut out */
+    #projects-content div {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
 }
 
 /* @media (max-width: 1200px) {
